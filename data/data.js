@@ -70,7 +70,7 @@ let profile = {
       to: "Now"
     }
   ],
-  quote: "I turn coffe into code"
+  quote: "I turn coffee into code"
 };
 
 let page = {
