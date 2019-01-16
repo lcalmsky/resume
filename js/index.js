@@ -12,7 +12,10 @@ function setup() {
 function fillTemplate() {
   let birth = new Date(profile.birth);
   // Profile image
-  document.getElementById("profileImg").setAttribute("alt", profile.name);
+  if (profile.picture != "") {
+    $("#profileImg").attr("src", profile.picture);
+  }
+  $("#profileImg").attr("alt", profile.name);
   // About
   $("#smallName").text(profile.name);
   $("#name")
