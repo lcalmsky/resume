@@ -6,7 +6,7 @@
 
 // Change your profile data here
 let profile = {
-  picture: 'img/profile.jpg',
+  picture: "img/profile.jpg",
   name: "Guim González",
   position: "Blockchain and FullStack developer",
   description:
