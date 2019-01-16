@@ -6,7 +6,7 @@
 
 // Change your profile data here
 let profile = {
-  picture: "img/profile.jpg",
+  picture: "", // The default image is in the img folder, put a new path here or change it manually in the folder
   name: "Guim González",
   position: "Blockchain and FullStack developer",
   description:
