@@ -6,11 +6,10 @@
 
 // Change your profile data here
 let profile = {
-  picture: "", // The default image is in the img folder, put a new path here or change it manually in the folder
+  picture: "https://guimgonzalez.business/img/me.jpg",
   name: "Guim González",
-  position: "Blockchain and FullStack developer",
   description:
-    "I'm a Full Stack engineer primarily working with React, Node and MongoDB. Blockchain development enthusiast working with Ethereum, Solidity and Web3.",
+    "I'm a Full Stack engineer primarily working with React, Node and MongoDB.",
   bio:
     "Guim González has been programming for 7 years. Right now he is studying an engineering degree in Computer Science at Barcelona. Besides the studies, he has worked for other companies as well as private, doing websites for small businesses.<br><br>Lately, he has been programming with Solidity and Web3 for Blockchain development, as well as with ReactJs and NodeJs for web development. He does both, FrontEnd and BackEnd engineering, also with SQL and NoSQL databases, such as MariaDB and MongoDB.",
   email: "guim.gonzalez@gmail.com",
