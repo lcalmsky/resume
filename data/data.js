@@ -11,7 +11,7 @@ let profile = {
   description:
     "I'm a Full Stack engineer primarily working with React, Node and MongoDB.",
   bio:
-    "Guim González has been programming for 7 years. Right now he is studying an engineering degree in Computer Science at Barcelona. Besides the studies, he has worked for other companies as well as private, doing websites for small businesses.<br><br>Lately, he has been programming with Solidity and Web3 for Blockchain development, as well as with ReactJs and NodeJs for web development. He does both, FrontEnd and BackEnd engineering, also with SQL and NoSQL databases, such as MariaDB and MongoDB.",
+    "I've been programming for 7 years. Right now I'm studying an engineering degree in Computer Science at Barcelona. Besides the studies, I work for other companies as well as private, doing websites for small businesses.<br><br>My main technologies are ReactJs and NodeJs. I do both, FrontEnd and BackEnd engineering, also with SQL and NoSQL databases, such as MariaDB and MongoDB.",
   email: "guim.gonzalez@gmail.com",
   location: "Barcelona, Spain",
   birth: "1997-07-26", // YYYY-MM-DD format
@@ -45,7 +45,7 @@ let profile = {
       url: "https://www.innova-tsn.com/",
       location: "Barcelona, Spain",
       description:
-        "I developed web services, worked with SAS for data manipulation, and email marketing with Oracle Eloqua.",
+        "I developed web services, worked with SAS (ETL's), and email marketing with Oracle Eloqua.",
       from: "July 2018",
       to: "February 2019"
     },
