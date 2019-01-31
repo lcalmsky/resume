@@ -5,7 +5,7 @@ Here you have a snapshot of how it looks like.
 
 ![Developer portfolio snapshot - Guim González](img/snapshot.png)
 
-This is a template made for developers to use it as a landing page 💻. To see the live demo visit [guimgonzalez.business](https://guimgonzalez.business).
+This is a template made for developers to use it as a landing page 💻. To see the live demo visit [guimg.github.io/dev-portfolio/](https://guimg.github.io/dev-portfolio/s).
 
 ## Usage
 
