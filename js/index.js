@@ -82,7 +82,7 @@ function fillTemplate() {
     educationTemplate.find("p").text(profile.education[i].fieldOfStudy);
     educationTemplate.find(".location").text(profile.education[i].location);
     educationTemplate
-      .find(".text-primary")
+      .find(".date")
       .text(profile.education[i].from + " - " + profile.education[i].to);
 
     $("#educationContainer").append(educationTemplate.html());
