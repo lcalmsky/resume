@@ -1,26 +1,42 @@
-# Developer portfolio template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Create%20your%20own%20developer%20portfolio%20with%20this%20amazing%20template%20on%20Github&url=https://github.com/GuimG/dev-portfolio/&via=GuimGonzalez&hashtags=html,bootsrap,templates,css,developers,javascript)
+# Developer portfolio template
 
-Welcome to my developer portfolio template with HTML, CSS and JS 🚀 🚀 🚀. Free to use and easy to customize.  
-Here you have a snapshot of how it looks like.
+<p align="center">
+  An easy to use DEVELOPER PORTFOLIO TEMPLATE.<br>
+  Full customizable and easy to use.<br>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.3-informational.svg">
+  <img src="https://img.shields.io/badge/licence-MIT-blue.svg">
+</p>
+
+<p align="center">
+  Created by <a href="https://guimgonzalez.business/">Guim González</a>.
+</p>
+
+🚀 Welcome to my developer portfolio template with HTML, CSS and JS. Free to use and easy to customize. Here you have a snapshot of how it looks like.
 
 ![Developer portfolio snapshot - Guim González](img/snapshot.png)
 
-This is a template made for developers to use it as a landing page 💻. To see the live demo visit [guimg.github.io/dev-portfolio/](https://guimg.github.io/dev-portfolio/s).
+💻 This is a template made for developers to use it as a portfolio page. To see a live demo visit [guimg.github.io/dev-portfolio/](https://guimg.github.io/dev-portfolio/s).
 
 ## Usage
 
-This template is fully customazible. To change your profile info, go to: `data/data.js`.
-Within the file you'll find a Javascript object which contains all the profile data. Change the fields to your current one and once it's done, 💥 boom, refresh 🔁 the page and 👁 see the magic.
+### Profile data
 
-### Example
+✏️The first step is to change the profile data. To do so, go to the file: `data/data.js`.
+
+Within the file you'll find a Javascript object, which contains all the profile data. Change the fields to your current one and save the changes.
+
+> Example
 
 This is a reduced version of the profile object:
 
 ```javascript
 var profile = {
   name: "Guim González",
-  position: "Blockchain and FullStack developer",
-  email: "guim.gonzalez@gmail.com",
+  position: "FullStack Developer & Software Engineer",
+  email: "info@guimgonzalez.business",
   location: "Barcelona, Spain",
   birth: "1997-07-26"
 };
@@ -32,18 +48,18 @@ Let's change the profile information to `John's Doe`:
 // My new profile
 var profile = {
   name: "John Doe",
-  position: "Web developer and cake lover",
+  position: "Web Developer at Google.",
   email: "john.doe@example.com",
   location: "San Francisco, CA",
   birth: "1989-09-06"
 };
 ```
 
-Done ✅ the new profile is ready. Try yours! 🔥
+✅ Done! Let's begin with the styling.
 
-### Changing color
+### Theme
 
-Don't like the color? 👨‍🎨 Try changing to new themes, here you have a list of them:
+🎨 If you don't like the color I've put some other ones. Try them and choose your favourite one.
 
 - Nightsky
 - Sunset
@@ -61,16 +77,17 @@ let page = {
 };
 ```
 
-> In this first version you can't change the language yet. Soon I'll commit new updates.
+> In this first version you can't change the language yet. I'll upgrade it asap.
 
 ## Upload your page
 
-Once you've forked, cloned or downloaded this repository, you can host your site on Github with [github pages](https://pages.github.com/). Once it's done, you can commit changes to the repo and they'll be automaticaly changed in your page. Or you can buy your own hosting if you want to.
+To see your page on Github pages like this: [guimg.github.io/dev-portfolio/](https://guimg.github.io/dev-portfolio/s), just follow their [guide](https://pages.github.com/), it's super simple.
 
 ## Troubleshooting and help
 
-For any problem ❗️ or question ❓ of usage [send me an email](mailto:guim.gonzalez@gmail.com) ✉️.
-Also, if you want any improvement on the page, feel free to write me. I'm open to all suggestions.
+For any problem ❗️ or question ❓ of usage [send me an email](mailto:info@guimgonzalez.business) ✉️.
+
+Feel free to open a new [pull request](https://github.com/GuimG/dev-portfolio/pulls) here.
 
 ## Bugs and issues
 

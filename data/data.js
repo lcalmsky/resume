@@ -6,27 +6,24 @@
 
 // Change your profile data here
 let profile = {
-  picture: "https://guimgonzalez.business/img/me.jpg",
+  picture: "https://guimgonzalez.business/789e6e362ef4f841e66534ff2692f72e.jpg",
   name: "Guim González",
-  description:
-    "I'm a Full Stack engineer primarily working with React, Node and MongoDB.",
+  description: "FullStack Developer & Software Engineer.",
   bio:
-    "I've been programming for 7 years. Right now I'm studying an engineering degree in Computer Science at Barcelona. Besides the studies, I work for other companies as well as private, doing websites for small businesses.<br><br>My main technologies are ReactJs and NodeJs. I do both, FrontEnd and BackEnd engineering, also with SQL and NoSQL databases, such as MariaDB and MongoDB.",
-  email: "guim.gonzalez@gmail.com",
+    "I'm a computer science student from Barcelona. Besides the studies, I'm a freelancer developer but I also worked for some companies, as banks or consultant firms. <br><br>I mainly focus on Full Stack development web technologies, although I am also very attracted to Blockchain development.",
+  email: "info@guimgonzalez.business",
   location: "Barcelona, Spain",
   birth: "1997-07-26", // YYYY-MM-DD format
   skills: [
+    "Blockchain",
     "Bootstrap",
     "CSS",
-    "ES6",
     "Ethereum",
     "HTML",
     "Javascript",
-    "JSX",
     "MongoDB",
     "Node.js",
     "React.js",
-    "Redux",
     "Solidity",
     "SQL",
     "Web3"
@@ -40,6 +37,16 @@ let profile = {
   },
   experience: [
     {
+      title: "FullStack Developer",
+      company: "Freelance",
+      url: "https://guimgonzalez.business/",
+      location: "Barcelona, Spain",
+      description:
+        "I do websistes for small businesses. I develop both frontend and backend. I can also assist on choosing the best hosting option and taking care of the VPS.",
+      from: "September 2017",
+      to: "Now"
+    },
+    {
       title: "IT Consultant",
       company: "Innova-TSN",
       url: "https://www.innova-tsn.com/",
@@ -48,16 +55,6 @@ let profile = {
         "I developed web services, worked with SAS (ETL's), and email marketing with Oracle Eloqua.",
       from: "July 2018",
       to: "February 2019"
-    },
-    {
-      title: "Fullstack developer",
-      company: "Me",
-      url: "",
-      location: "Barcelona, Spain",
-      description:
-        "I make websites for small businesses. I develop all the server from the backend models, logic and security to the frontend design, logic and responsiveness.",
-      from: "September 2017",
-      to: "Now"
     }
   ],
   education: [
@@ -77,10 +74,6 @@ let page = {
   language: "english",
   // ^ languages suported:
   //  - english (default)
-  //  - spanish
-  //  - italian
-  //  - catalan
-  //  - french
   theme: "nightsky"
   // ^ themes suported:
   //  - nightsky (default)
