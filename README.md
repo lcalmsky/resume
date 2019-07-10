@@ -1,7 +1,7 @@
 # Developer portfolio template
 
 <p align="center">
-  An easy to use DEVELOPER PORTFOLIO TEMPLATE.<br>
+  A DEVELOPER PORTFOLIO TEMPLATE.<br>
   Full customizable and easy to use.<br>
 </p>
 
