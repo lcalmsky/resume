@@ -6,24 +6,25 @@
 
 // Change your profile data here
 let profile = {
-  picture: "https://guimgonzalez.business/789e6e362ef4f841e66534ff2692f72e.jpg",
+  picture: "",
   name: "Guim González",
-  description: "FullStack Developer & Software Engineer.",
+  description: "Software Engineer & Fullstack Developer",
   bio:
-    "I'm a computer science student from Barcelona. Besides the studies, I'm a freelancer developer but I also worked for some companies, as banks or consultant firms. <br><br>I mainly focus on Full Stack development web technologies, although I am also very attracted to Blockchain development.",
-  email: "info@guimgonzalez.business",
+    "I'm a Software Engineer interested in Internet technologies, computer networks and security. From the FullStack development to the most innovative technologies such as Blockchain.<br><br>High level of web languages (JS, HTML and CSS), average level of C and C++. Great understanding of Internet protocols, P2P networks and cloud infrastructures. I work with JS frameworks, JQuery (old days) and React.js (now).",
+  email: "guim.gonzalez@gmail.com",
   location: "Barcelona, Spain",
   birth: "1997-07-26", // YYYY-MM-DD format
   skills: [
     "Blockchain",
-    "Bootstrap",
+    "Bitcoin",
+    "C/C++",
     "CSS",
     "Ethereum",
     "HTML",
     "Javascript",
     "MongoDB",
-    "Node.js",
-    "React.js",
+    "NodeJS",
+    "React",
     "Solidity",
     "SQL",
     "Web3"
@@ -42,7 +43,7 @@ let profile = {
       url: "https://guimgonzalez.business/",
       location: "Barcelona, Spain",
       description:
-        "I do websistes for small businesses. I develop both frontend and backend. I can also assist on choosing the best hosting option and taking care of the VPS.",
+        "I do websistes for small businesses. I develop both frontend and backend. I also setup and mantain the VPS.",
       from: "September 2017",
       to: "Now"
     },
