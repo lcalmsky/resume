@@ -12,8 +12,8 @@ email_title: Email
 email: minhoe1122@gmail.com
 # phone_title: Phone (Phone title override)
 # phone: Your phone number (optional)
-webste_title: TiStory
-website: https://minemanemo.tistory.com
+website_title: RoketPunch
+website: https://rocketpunch.com/@minhoe1122
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -21,11 +21,12 @@ darkmode: never
 # Social links
 # twitter_username: jekyllrb
 github_username: minemanemo
+tistory_username: minemanemo
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jekyll
+instagram_username: minoi1122
 # linkedin_username: jekyll
 # xing_username: jekyll
 # pinterest_username: jekyll

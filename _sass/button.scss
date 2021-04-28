@@ -1,5 +1,5 @@
 .button--sacnite::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -50,6 +50,14 @@
 
 .button--sacnite:hover {
   color: #333;
+}
+
+.button.button--sacnite svg {
+  fill: #fff;
+}
+
+.button--sacnite:hover svg {
+  fill: #333;
 }
 
 .button--sacnite:hover::before {
