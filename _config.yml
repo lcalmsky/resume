@@ -311,6 +311,7 @@ content:
           <strong>❏ 프로젝트 개요</strong>
             - 웹 서비스 기반 OS 형태의 네트워크 관리자 콘솔 개발
             - 기존의 Window 기반의 네트워크 관리자 콘솔은 배포와 수정이 어려움 발생
+            - Spring Cloud 도입
 
           <strong>❏ 역할</strong>
             - web frontend 개발
@@ -319,6 +320,7 @@ content:
             - Git 레포지토리 관리 (서브모듈 구성 관리)
             - 지속적인 통합 및 배포 가능하도록 구성 및 관리 (bamboo 프로젝트 구성 및 스크립트 개발)
             - MFC/C#으로 개발된 기존의 네트워크 관리 애플리케이션을 웹 서비스 앱으로 마이그레이션(또는 신규 개발)
+            - 빌드 및 배포 자동화 구축 (bamboo)
 
           <strong>❏ 사용 기술</strong>
             - <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
