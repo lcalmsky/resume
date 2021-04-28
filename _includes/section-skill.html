@@ -1,0 +1,66 @@
+<div style="display: flex; justify-content: center;">
+  <div id="markdown-show-btn" style="cursor: pointer;">
+    <img src="https://img.shields.io/badge/마크다운%20보기-000000?style=flat-square"/>
+  </div>
+  <div id="badge-show-btn" style="cursor: pointer;">
+    <img src="https://img.shields.io/badge/배지로%20보기-FF3621?style=flat-square"/>
+  </div>
+</div>
+<div id="skill-area">
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} skill-{{item.card | default: 'text'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4>{{ item.title }}</h4>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
+
+      <p class="no-print aditional-links">
+        {% for link in item.additional_links %}
+          {% include a.html href=link.url class="" %}
+            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+          </a>
+        {% endfor %}
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.quote -%}
+        <p class="quote">{{ item.quote }}</p>
+      {%- endif -%}
+      {{ item.description | strip | markdownify }}
+    </div>
+  </div>
+{% endfor %}
+</div>
+<script>
+  function clickHandler(targetClassId) {
+    var _target = document.querySelectorAll('#skill-area > div');
+    _target.forEach(function(target, index) {
+      if (target.className.indexOf("skill-"+targetClassId) >= 0) {
+        target.setAttribute("style", "");
+      } else {
+        target.setAttribute("style", "display: none;");
+      }
+    });
+  }
+  document.addEventListener("DOMContentLoaded", function(){
+    var mBtn = document.getElementById('markdown-show-btn');
+    if (mBtn.addEventListener) {
+      mBtn.addEventListener('click', function() {
+        clickHandler('markdown');
+      })
+    }
+    var bBtn = document.getElementById('badge-show-btn');
+    if (bBtn.addEventListener) {
+      bBtn.addEventListener('click', function() {
+        clickHandler('badge');
+      })
+    }
+    clickHandler('markdown');
+  });
+</script>
