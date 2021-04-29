@@ -455,7 +455,6 @@ content:
       - layout: left
         title: 개인 블로그
         sub_title: https://minemanemo.tistory.com
-        caption: 2012.03 ~ 18.02
         description: |
           * 개인 기술 블로그 입니다.
           * 업무 중 발생한 트러블 슈팅 내용, 새롭게 공부한 내용 등 개발에 관련된 내용을 주제로 포스팅 합니다.
