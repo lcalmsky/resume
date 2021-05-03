@@ -40,13 +40,14 @@
 <script>
   function clickHandler(targetClassId) {
     var _target = document.querySelectorAll('#skill-area > div');
-    _target.forEach(function(target, index) {
-      if (target.className.indexOf("skill-"+targetClassId) >= 0) {
+
+    for (i = 0; i < _target.length; i++) {
+      var target = _target[i];
+      if (target.className.indexOf("skill-"+targetClassId) >= 0)
         target.setAttribute("style", "");
-      } else {
+      else
         target.setAttribute("style", "display: none;");
-      }
-    });
+    }
   }
   document.addEventListener("DOMContentLoaded", function(){
     var mBtn = document.getElementById('markdown-show-btn');
