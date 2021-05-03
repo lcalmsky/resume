@@ -52,12 +52,31 @@
   color: #333;
 }
 
-.button.button--sacnite svg {
+.button.button--sacnite .tistory-ci svg {
   fill: #fff;
 }
 
-.button--sacnite:hover svg {
+.button--sacnite:hover .tistory-ci svg {
   fill: #333;
+}
+
+.button.button--sacnite .rocketpunch-ci {
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.button.button--sacnite .rocketpunch-ci svg {
+  fill: #333;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.button--sacnite:hover .rocketpunch-ci {
+  background-color: #333;
+}
+.button--sacnite:hover .rocketpunch-ci svg {
+  fill: #fff;
 }
 
 .button--sacnite:hover::before {
