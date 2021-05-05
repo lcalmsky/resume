@@ -206,7 +206,7 @@ content:
           지금까지의 프로젝트 중 Front-End와 DevOps와 관련된 주요 프로젝트 입니다.
       - layout: left
         sub_title: 광고 플랫폼 웹 사이트 개발<br />(Front-End)
-        caption: Motov<br />21.09 ~ 현재
+        caption: Motov<br />20.09 ~ 현재
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         # additional_links:
@@ -248,7 +248,7 @@ content:
 
       - layout: left
         sub_title: 광고 플랫폼 CI/CD 구축<br />(DevOps)
-        caption: Motov<br />21.09 ~ 현재
+        caption: Motov<br />20.09 ~ 현재
         description: |
           <strong>❏ 프로젝트 개요</strong>
             - 서비스들의 빌드 및 배포 자동화 구축
@@ -286,7 +286,7 @@ content:
 
       - layout: left
         sub_title: 광고 플랫폼 Cloud Architecture Design 및 IoC 개발<br />(DevOps)
-        caption: Motov<br />21.09 ~ 현재
+        caption: Motov<br />20.09 ~ 현재
         description: |
           <strong>❏ 프로젝트 개요</strong>
             - 광고주 플랫폼의 AWS Cloud Network Architecture 설계 및 구축
