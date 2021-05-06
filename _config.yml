@@ -1,15 +1,15 @@
 # Site
-repository: minemanemo/minemanemo.github.io
+repository: lcalmsky/lcalmsky.github.io
 favicon: https://github.githubassets.com/favicons/favicon-dark.png
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: 이민회
-title: Front-end Engineer
+name: 이정민
+title: Back-end Software Engineer
 email_title: Email
-email: minhoe1122@gmail.com
+email: lcalmsky@gmail.com
 # phone_title: Phone (Phone title override)
 # phone: Your phone number (optional)
 # website_title: RoketPunch
@@ -20,14 +20,14 @@ darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
-github_username: minemanemo
-tistory_username: minemanemo
-rocketpunch_username: minhoe1122
+github_username: lcalmsky
+tistory_username: jaime-note
+#rocketpunch_username: minhoe1122
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: lcalmsky
 # flickr_username: jekyll
-instagram_username: minoi1122
+#instagram_username: minoi1122
 # linkedin_username: jekyll
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -49,427 +49,176 @@ instagram_username: minoi1122
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: https://avatars.githubusercontent.com/u/49668613?v=4
+about_profile_image: https://github.com/lcalmsky/lcalmsky.github.io/blob/master/images/jaime.jpeg?raw=true
 about_content: |
-  "I can do anything, but I cannot do everything"
+  "공부해서 남 주는 개발자"
 
-  모든걸 다 할 수는 없지만 무엇이든 할 수 있습니다.
-
-  배움의 욕심, 배움에 대한 실현, 지식의 나눔과 협업을 목표로 하는 개발자 입니다.
+  > 끝없는 배움을 지향하고,<br>
+  > 배운 것을 소통을 통해 공유하는 것을 즐기며,<br>
+  > 어제의 자신보다 발전하기 위해 노력하는 개발자입니다.
 
   <hr />
 
-  `Front-End 개발을 좋아합니다.`
+  2014년부터 `자바 백엔드 개발자`로 다양한 도메인(IoT, Fintech, WebOS)에서 `시스템 구축 및 설계`, `서비스 개발`을 해왔습니다.
 
-  - 사용자 경험 증대에 보다 앞장 설 수 있는 점을 매력적으로 생각하여 Front-End 개발자를 시작하게 되었습니다.
-  - 항상 사용자에게 편리한 사용자 경험을 고려하며 디자이너와 소통하여 더 좋은 사용자 경험을 끌어내려고 노력합니다.
-  - 항상 새로운 것을 공부하며 더 좋은 서비스를 개발하기 위해 노력합니다.
+  현재는 십일번가 내 SK pay 관련 조직에서 AML(자금세탁방지) 시스템 구축 프로젝트에 개발리더로 `매니징`, `설계`, `개발`에 참여하고 있습니다.
 
-  `레거시 시스템이 두렵지 않습니다.`
+  `가장 좋아하는 일`은 협업하는 동료들이 같이 사용할 수 있는 `라이브러리를 제작`하는 것으로, 개발자가 편리하게 사용할 수 있는 `개발 경험을 제공`하기위해 고민하고 설계하는 과정을 즐기고, 그렇게 작성할 수 있게 많은 노력을 기울이고 있습니다.
 
-  - APM 기반의 레거시 웹 서비스 운영 경험
-  - 네트워크 접근 제어 솔루션 관리자 콘솔 마이그레이션 경험 (JQuery → ExtJS)
-  - 광고 플랫폼 사이트 고도화 및 마이그레이션 (JQuery → React)
+  항상 `테스트 코드 작성`을 우선시하고 `코드 커버리지 수치`에 관심이 많습니다. 테스트 이후 `산출물(규격 문서, 테스트 결과 문서) 작성 자동화`에도 관심이 많습니다.
 
-  `협업 능력이 저의 제일 큰 장점 입니다.`
-  - 좋은 개발 문화를 만드는데 앞장서며 관리 및 협업 도구를 잘 쓰고싶어합니다.
-  - JIRA Sprint 리더 경험이 있으며 Wiki 문서 작성하고 `좋아요 👍🏻` 받는 것을 좋아합니다.
-  - Git을 자유자제로 사용할 수 있습니다.
+  귀찮은 것을 매우 싫어해 당연히 컴퓨터가 해야 할 일들은 컴퓨터가 해야한다고 생각하고 그렇게 하기위해 더 귀찮은 일도 마다하지 않습니다. 이런 과정을 통해 다양한 프로세스들을 자동화시켰을 때 큰 성취감을 느낍니다.<br>
 
-  주요 관심 파트 : <mark>WEB</mark> , <mark>Front-End</mark> , <mark>DevOps</mark>
+  다양한 개발자들과 `커뮤니케이션`하는 것을 좋아하고 같이 `좋은 개발 문화`를 만들어나가길 희망합니다.
+
+  관심 분야 : <mark>back-end</mark>, <mark>DevOps</mark>, <mark>cloud</mark>, <mark>Container Orchestration</mark>, <mark>TDD</mark>, <mark>documentation</mark>
 
 content:
   - title: Skill
-    layout: skill
-    first-card: markdown
+    layout: list
     quote: >
-      현재 업무에 사용 중이거나 혹은 사용했던 기술 혹은 도구들입니다.
+      현재 업무에 사용 중이거나 사용했던 기술 혹은 도구들입니다.
     content:
       - layout: left
-        title: Front-End
+        title: Language &<br>Framework
         card: markdown
         description: |
-          - HTML, CSS, JavaScript, TypeScript
-          - React, Redux, Redux-Saga
-          - styled components, Material-UI
-          - Sencha, jQuery, Sass
-          - npm, yarn
-          - VS Code, ESLint, Prettier
+          - `java`
+          - `spring boot`: `web`, `security`, `jpa`, `redis`, `kafka`, `batch`, `test`, `mockito`
+          - `spring cloud`: `oauth`, `gateway`, `zuul`, `histrix`, `config`
+          - `ORM`: `Hibernate`, `MyBatis`, `Querydsl`
+          - `R`
       - layout: left
-        title: Back-End
+        title: Database
         card: markdown
         description: |
-          - NodeJS, Express, NginX, Apache2
-          - PHP
-          - MySQL, MariaDB, Oracle, MS SQL, Redis
-          - Swagger
+          - `RDBMS`: `Oracle`, `MySQL`, `MariaDB`, `Altibase`
+          - `NoSQL`: `Redis`
       - layout: left
-        title: DevOps
+        title: DevOps<br>(Build, Test, Deploy)
         card: markdown
         description: |
-          - AWS, GCP
-          - Git, Make, Gradle, GNU Bash Script, Docker
-          - Bamboo, Jenkins
-          - AWS CDK, Terraform
-          - Vagrant, Chef
+          - `GitHub`, `Bitbucket`, `GitLab`
+          - `Gradle`, `Maven`
+          - `JUnit5`, `Mockito`, `Jacoco`, `RestDocs`, `Swagger`
+          - `Bamboo`, `Jenkins`, `Ansible`
+          - `Docker`, `Kubernetes`
       - layout: left
-        title: Etc
+        title: Tools
         card: markdown
         description: |
-          - C, C++, Python
-          - Robot Framework, Autoit
-      - layout: top
-        card: badge
-        description: |
-          <div style="display: flex;flex-wrap: wrap;justify-content: space-around; max-width: 1000px; margin: 0 auto;">
-            <div style="text-align: center;margin-bottom: 20px;min-width: 350px;">
-              <p style="text-align: center;font-weight: bold; margin-bottom: 20px;">💻 WEB 💻</p>
-              <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-              <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-              <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
-              <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
-              <img src="https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=React-Router&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Redux%20Saga-999999?style=flat-square&logo=Redux-Saga&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/styled%20components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Material%20UI-0081CB?style=flat-square&logo=Material-UI&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Sencha-86BC40?style=flat-square&logo=Sencha&logoColor=white"/>
-            </div>
-
-            <div style="text-align: center;margin-bottom: 20px;min-width: 350px;">
-              <p style="text-align: center;font-weight: bold; margin-bottom: 20px;">🔑 DevOps & Infra 🔑</p>
-              <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=Google%20Cloud&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
-              <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=flat-square&logo=Yarn&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=Gradle&logoColor=white"/>
-              <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat-square&logo=GNU&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=Confluence&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=Bitbucket&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Bamboo-0052CC?style=flat-square&logo=Bamboo&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=Terraform&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Vagrant-1563FF?style=flat-square&logo=Vagrant&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Chef-F09820?style=flat-square&logo=Chef&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-              <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white"/>
-              <img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo/nginx&logoColor=white"/>
-            </div>
-
-            <div style="text-align: center;margin-bottom: 20px;min-width: 350px;">
-              <p style="text-align: center;font-weight: bold; margin-bottom: 20px;">🛠 Tools 🛠</p>
-              <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=ESLint&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=Prettier&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Microsoft%20Teams-6264A7?style=flat-square&logo=Microsoft%20Teams&logoColor=white"/>
-            </div>
-
-            <div style="text-align: center;margin-bottom: 20px;min-width: 350px;">
-              <p style="text-align: center;font-weight: bold; margin-bottom: 20px;">⚙️ Etc (Experience) ⚙️</p>
-              <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
-              <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C++&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
-              <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=Apache&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Robot%20Framework-000000?style=flat-square&logo=Robot%20Framework&logoColor=white"/>
-              <br /><br />
-              <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
-              <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat-square&logo=Microsoft%20SQL%20Server&logoColor=white"/>
-            </div>
-          </div>
-
-  - title: Project
+          - `IntelliJ`, `Eclipse`, `VS Code`
+          - `Confluence`, `Jira`, `Notion`
+  - title: Work Experience
     layout: list
     content:
       - layout: top-middle
         quote: >
-          지금까지의 프로젝트 중 Front-End와 DevOps와 관련된 주요 프로젝트 입니다.
+          현재까지 진행한 주요 프로젝트 입니다.
       - layout: left
-        sub_title: 광고 플랫폼 웹 사이트 개발<br />(Front-End)
-        caption: Motov<br />20.09 ~ 현재
-        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        # link_text: Link Text
-        # additional_links:
-        #   - title: Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #   - title: Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: 십일번가<br />19.09 ~ 현재
+        sub_title: 마이데이터
+        caption: 20.03 ~ 현재
         description: |
           <strong>❏ 프로젝트 개요</strong>
-            - 광고 플랫폼을 버전 2.0에서 3.0 개발을 진행하면서 플랫폼 자체를 새롭게 개발하여 고도화하는 프로젝트
-            - TTD(Taxi Top Driver)라고 불리는 택시 상단에 올라가는 디스플레이에서 송출할 광고를 관리하는 사이트 개발
-            - <a href="https://github.com/InteractiveAdvertisingBureau/OpenDirect">OpenDirect</a> 규격에 따른 사이트 개발
+            -
 
           <strong>❏ 역할</strong>
-            - 광고주들이 광고를 관리할 수 있는 '광고주 사이트' Front-End 개발
-            - Zeplin을 통한 디자이너와 소통을 통한 UX 디자인 참여
-            - '광고주 사이트' Front-End 빌드 및 배포
+            -
 
           <strong>❏ 사용 기술</strong>
-            - <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-            <img src="https://img.shields.io/badge/JavaScript%20ES6-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
-            <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/React%20Hooks-61DAFB?style=flat-square&logo=React&logoColor=black"/>
-            <img src="https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=React-Router&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Redux%20Saga-999999?style=flat-square&logo=Redux-Saga&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/styled%20components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Material%20UI-0081CB?style=flat-square&logo=Material-UI&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=ESLint&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=Prettier&logoColor=white"/>
+            -
 
           <strong>❏ 성과</strong>
-            - 광고주 광고 사이트 초기 단계부터 설계 및 개발
-
-      - layout: left
-        sub_title: 광고 플랫폼 CI/CD 구축<br />(DevOps)
-        caption: Motov<br />20.09 ~ 현재
-        description: |
-          <strong>❏ 프로젝트 개요</strong>
-            - 서비스들의 빌드 및 배포 자동화 구축
-            - 데이터베이스 마이그레이션 관리 체계 구축
-
-          <strong>❏ 역할</strong>
-            - 서비스 버전 업데이트 체계 구축 및 자동화
-            - 사내 Git flow 정의
-            - 기존의 CI/CD 서버에서 마이그레이션 (Jenkins)
-            - 서비스 환경 별 빌드 및 배포 프로세스 Pipeline화 (AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy)
-            - AWS RDS(Aurora) 마이그레이션 자동화 구축 (flyway)
-            - Blue/Green 무중단 배포 (Nginx, Docker)
-            - JIRA 이슈 스프린트 리더
-
-          <strong>❏ 사용 기술</strong>
-            - <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=Confluence&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=Bitbucket&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
-            <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=flat-square&logo=Yarn&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=Gradle&logoColor=white"/>
-            <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat-square&logo=GNU&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white"/>
-            <img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo/NGINX&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Slack%20WEB%20API-4A154B?style=flat-square&logo=Slack&logoColor=white"/>
-            <mark>Flyway</mark>
-            - <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/> :
-            <mark>CodeBuild</mark> <mark>CodeDeploy</mark> <mark>CodePipeline</mark> <mark>S3</mark>
-            <mark>EC2</mark> <mark>ELB</mark> <mark>RDS</mark> <mark>SNS</mark> <mark>Lambda</mark>
-
-          <strong>❏ 성과</strong>
-            - 광고주 광고 사이트 초기 단계부터 설계 및 개발
-
-      - layout: left
-        sub_title: 광고 플랫폼 Cloud Architecture Design 및 IoC 개발<br />(DevOps)
-        caption: Motov<br />20.09 ~ 현재
-        description: |
-          <strong>❏ 프로젝트 개요</strong>
-            - 광고주 플랫폼의 AWS Cloud Network Architecture 설계 및 구축
-            - IoC(Infrastructure as Code)를 통한 클라우드 관리를 위한 개발
-
-          <strong>❏ 역할</strong>
-            - AWS Cloud Architecture 설계 및 구축
-            - AWS Terraform과 CDK를 이용한 IoC 진행
-
-          <strong>❏ 사용 기술</strong>
-            - <img src="https://img.shields.io/badge/AWS%20CDK-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=Terraform&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/AWS%20VPC-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/>
-            <mark>VPC</mark> <mark>Subnet</mark> <mark>Internet Gateway</mark> <mark>NAT Gateway</mark>
-            <mark>Route</mark> <mark>EndPoint</mark> <mark>Session Manager</mark>
-
-          <strong>❏ 성과</strong>
-            - 광고주 광고 사이트 초기 단계부터 설계 및 개발
-
-      - layout: left
-        sub_title: NAC 관리자 웹 서비스 개발<br />(Front-End / DevOps)
-        caption: NetMan<br />18.01 ~ 19.05
-        description: |
-          <strong>❏ 프로젝트 개요</strong>
-            - 웹 서비스 기반 OS 형태의 네트워크 관리자 콘솔 개발
-            - 기존의 Window 기반의 네트워크 관리자 콘솔은 배포와 수정이 어려움 발생
-            - Spring Cloud 도입
-
-          <strong>❏ 역할</strong>
-            - web frontend 개발
-            - API 설계 참여 (swagger)
-            - 개발 환경 구축 가이드 문서 통합 (confluence)
-            - Git 레포지토리 관리 (서브모듈 구성 관리)
-            - 지속적인 통합 및 배포 가능하도록 구성 및 관리 (bamboo 프로젝트 구성 및 스크립트 개발)
-            - MFC/C#으로 개발된 기존의 네트워크 관리 애플리케이션을 웹 서비스 앱으로 마이그레이션(또는 신규 개발)
-            - 빌드 및 배포 자동화 구축 (bamboo)
-
-          <strong>❏ 사용 기술</strong>
-            - <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/>
-            <img src="https://img.shields.io/badge/JavaScript%20ES6-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
-            <img src="https://img.shields.io/badge/Sencha%20ExtJS6-86BC40?style=flat-square&logo=Sencha&logoColor=white"/>
-            <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>
-            <img src="https://img.shields.io/badge/ESLint%20AirBnB-4B32C3?style=flat-square&logo=ESLint&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/Git%20Submodule-F05032?style=flat-square&logo=Git&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Confluence%20Wiki-172B4D?style=flat-square&logo=Confluence&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Bamboo-0052CC?style=flat-square&logo=Bamboo&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Chef-F09820?style=flat-square&logo=Chef&logoColor=white"/>
-
-          <strong>❏ 성과</strong>
-            - 웹 서비스 앱 (대시보드, 네트워크 관리, DHCP 관리 앱) 개발
-            - CI / CD 도입
-            - Front End 코딩 스타일 통합 (ESLint, GitHook)
-
-      - layout: left
-        sub_title: Manager Server Team CI/CD 프로세스 개선 및 관리<br />(DevOps)
-        caption: NetMan<br />19.01 ~ 20.09
-        description: |
-          <strong>❏ 프로젝트 개요 / 목표</strong>
-            - 빌드, 패키지, 테스트 및 배포 프로세스 개편 및 관리
-            - 서버 장비에 탑재될 소프트웨어 설치 패키지 개선
-            - 설치 패키지의 신뢰성 확보 (기존 Bash Script로 제작된 패키지의 예외 처리 부족으로 인한 신뢰성 부족)
-            - 형상 관리 도구와 CI/CD 서버 구축을 통한 자동화 프로세스 도입
-
-          <strong>❏ 역할</strong>
-            - make와 bash Script를 통하여 서비스 빌드 개선
-            - Docker Image 제작을 통하여 빌드 및 개발 환경 통합
-            - 형상 관리 도구 사용 (Chef)을 통한 패키지 신뢰도 개선
-            - 가상머신을 보다 쉽게 관리 할 수 있는 Vagrant와 스크립트 작성으로 자동화 테스팅 환경 구축
-            - 지속적인 통합 및 배포 도구(Bamboo) 도입으로 CI/CD 서버 구축
-
-          <strong>❏ 사용 기술</strong>
-            - <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=Confluence&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Bamboo-0052CC?style=flat-square&logo=Bamboo&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
-            <mark>make</mark>
-            <img src="https://img.shields.io/badge/Chef-F09820?style=flat-square&logo=Chef&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Vagrant-1563FF?style=flat-square&logo=Vagrant&logoColor=white"/>
-            <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat-square&logo=GNU&logoColor=white"/>
-
-          <strong>❏ 성과</strong>
-            - 기존보다 잦은 휴먼 에러를 제거
-            - C/C++ 서비스 빌드 자동화 도입
-            - 패키지 제작 자동화 도입, 제작 시간 단축, 설치 테스트 자동화
-            - 설치 패키지의 신뢰성을 높이고 비지니스 개발에 집중 할 수 있도록 CI/CD 서버 도입
-            - Git Flow 도입으로 협업 환경 개선
-            - 개발 환경 통합
-
-      - layout: left
-        sub_title: 네트워크 인증 및 자산 신청 서비스<br />관리자 설정 서비스<br />개발 및 유지보수<br />(Full Stack)
-        caption: NetMan<br />19.01 ~ 20.09
-        description: |
-          <strong>❏ 프로젝트 개요</strong>
-            - 웹 서비스 기반의 네트워크 관리자 콘솔(설정/관리 기능) 개발 및 유지보수를 담당
-
-          <strong>❏ 역할</strong>
-            - 웹 서비스 개발 및 유지보수 (Apache2, PHP, MySQL, JavaScript, Jquery, JQ Widget)
-
-          <strong>❏ 사용 기술</strong>
-            - <img src="https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=Apache&logoColor=white"/>
-            <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/>
-            <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-            - <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
-            <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>
-            <mark>JQ Widget</mark>
-
-          <strong>❏ 성과</strong>
-            - PHP 7 버전 업그레이드에 따른 소스 마이그레이션
-            - 기존의 HTML, PHP, JavaScript가 같이 쓰였던 소스를 MVC 패턴을 기반으로 분리하여 개선
-            - PHP 기반의 Restful API로 변환하여 재사용성과 확장성 마련
-
+            -
   - title: Experience
     layout: list
     content:
+      - layout: top-middle
+        quote: >
+          현재까지 진행한 주요 프로젝트 입니다.
       - layout: left
-        title: Motov
-        sub_title: 광고 플랫폼 개발팀<br />Front-End/DevOps Engineer
-        caption: 20.09 ~ 현재
+        title: 십일번가(SK pay)
+        sub_title: Payment개발팀/매니저
+        caption: 2019.09~현재
         description: |
-          * 광고 플랫폼의 Web 사이트 개발 (Front-End)
-          * 광고 플랫폼의 CI/CD 구축 (DevOps)
-          * 광고 플랫폼의 Cloud Architecture 설계 및 IoC 개발 (DevOps)
-          * AWS Cloud 관리자
-          * 사내 세미나 활동 및 외부 활동
-            * AWS StartUp Team과 소통하여 지속적인 Cloud 아키텍쳐 개선 (20.09 ~)
-            * AWS Network 아키텍처 구성 및 세미나 (21.02.15)
-            * 광고 플랫폼 아키텍쳐 구성 및 배포 (21.02.17)
-            * AWS IAM 계정 사용 정책 세미나 (21.03.30) (<a href="https://minemanemo.tistory.com/140">포스팅 바로가기</a>)
-            * AWS Session Manager를 이용한 보안 접속 방법 세미나 (21.03.30)
-            * 신규 CI/CD 프로세스 세미나 (21.04.12)
+          > 인증 서버 개발, FDS 서버 개발, AML 시스템 구축 프로젝트 리더 및 서버 개발, 마이데이터 분석시스템 서버 개발
+
+          <strong>마이데이터 (2021.03~진행중)</strong>
+          * 개요:
+          * 역할
+          * 사용 기술
+          * 성과
+
+          <strong>SK pay AML (2020.12~진행중)</strong>
+          * 개요:
+          * 역할
+          * 사용 기술
+          * 성과
+
+          <strong>SK pay FDS (2020.07~2020.12)</strong>
+          * 개요:
+          * 역할
+          * 사용 기술
+          * 성과
+
+          <strong>SK pay FDS 적용 및 고도화 (2020.01~2020.06)</strong>
+          * 개요
+            * syrup pay, 11pay에는 FDS가 적용되어있었으나 SK pay는 일부 기능을 제외하고는 레거시 연동을 통해 FDS를 적용하고 있었음
+            * SK pay에서 직접 FDS를 연동, 기존 기능 마이그레이션
+          * 역할
+            * 이벤트 서버 구축 및 개발
+            * 이벤트 서버 연동 라이브러리 개발
+            * 2차 인증(SMS, ARS)을 위해 3rd-party 연동 개발
+            * 단말 인증(간편 결제) 개발
+            * 레거시에 적용되어있던 FDS 연동구간 마이그레이션
+          * 주요 사용 기술
+            * `kafka`, `filter`, `interceptor`, `redis`, `jpa`, `web`
+          * 성과
+            * 레거시 연동 포인트 제거
+            * 신규 모듈에 확장 가능한 형태로 마이그레이션 완료
+            * FDS 연동 완료
+            * 라이브러리 개발을 통해 FDS 연동이 필요한 구간에서 필요한 공통적인 기능 제공
+            * kafka 도입 및 FDS 관련 메시지 외에 다양한 메시지 처리할 수 있는 이벤트 서버 개발
+
+          <strong>SK pay 통합 인증 로그인 개발 (2019.10 - 2020.01)</strong>
+          * 개요: SK pay 결제를 회원가입 없이 할 수 있도록 OAuth2.0 방식 로그인(십일번가, T아이디, 본인인증) 개발
+          * 역할: 인증 서버 개발, 본인인증 서버 연동, 십일번가 서버 연동, T아이디 서버 연동
+          * 주요 사용 기술
+            * `web`, `security`, `config`, `redis`, `jpa`
+          * 성과
+            * OAuth2.0 방식의 로그인 적용
+            * 통합인증 로그인 추상화 설계 및 구현
 
       - layout: left
-        title: NetMan
-        sub_title: Manager Server 팀<br />WEB/DevOps Enginner
-        caption: 18.01 ~ 20.09
+        title: 고퀄
+        sub_title: 개발팀/개발팀장
+        caption: 2019.02~2019.08
         description: |
-          * 네트워크 접근 제어 솔루션(NAC)의 관리 서버팀에서 근무
-          * Web기반 OS 형태의 네트워크 매니저 서비스 신규 개발 (Front-End, DevOps)
-          * 팀의 전반적인 CI/CD Process 개편 및 자동화 적용
-          * PHP 기반의 WEB 서비스 개발 및 유지보수
-          * C++ 기반의 Linux App/서비스 개발 및 유지보수
-          * Atlassian의 Software 관리자 (JIRA, Confluence, Bambbo)
-          * 연구소에 사내 메신저 도입(KakaoTalk → HipChat → Slack → MS Teams)
-          * 2018.10 우수 사원 선정 (<a href="https://blog.naver.com/netman02/221390240278">블로그 포스팅 바로가기</a>)
-
+          * IoT 플랫폼 설계 및 구축
       - layout: left
-        title: NetMan
-        sub_title: 인턴십
-        caption: 17.03 ~ 17.09 (FullTime)<br />17.09 ~ 17.12 (PartTime)
+        title: 넷맨
+        sub_title: MG팀/전임 연구원
+        caption: 17.11 ~ 19.02
         description: |
-          * ICT 인턴십 프로그램을 통한 인턴십 활동 (FullTime)
-          * ICT 인턴십 종료 후 학교 수업과 회사를 병행 (PartTime)
-          * 각종 서비스의 테스팅을 위한 Tool 및 테스팅 자동화 구축
-            * Python을 이용한 C 구조체 커스텀 패킷 발생기 제작 (17.03 ~ 17.05)
-            * Robot Framework를 이용한 Windows 단말 테스팅 자동화 (17.05 ~ 17.07)
-            * Vagrant를 이용한 Windows OS 단말 원격 테스팅 자동화 (17.08 ~ 17.12)
-
+          * WebOS 기반 솔루션 클라우드 구축 및 서버 개발
+      - layout: left
+        title: 헤리트
+        sub_title: IoT플랫폼팀/대리(전문연구요원)
+        caption: 2014.03~2017.04
+        description: |
+          * U+ HomeIoT 플랫폼 서버 개발 및 자체 플랫폼 구축
   - title: Resource
     layout: list
     content:
       - layout: left
         title: 개인 블로그
-        sub_title: https://minemanemo.tistory.com
+        sub_title: https://jaime-note.tistory.com
         description: |
-          * 개인 기술 블로그 입니다.
-          * 업무 중 발생한 트러블 슈팅 내용, 새롭게 공부한 내용 등 개발에 관련된 내용을 주제로 포스팅 합니다.
-          * 사내 Wiki에 적은 글 중에서 공유하면 좋을 것 같은 내용은 옮기기도 합니다.
-          * 최대한 머리가 아닌 글로 기억하려고 노력합니다.
-          * 주중 일 평균 100명 방문자 블로그 입니다.
+          * 업무 중 추가로 공부가 필요한 주제를 발견했을 때 기록하기 위해 사용
+          * 작년 결혼 및 이사 준비, 회사 업무 등으로 바빠진 이후로 거의 포스팅하지 못하고 있음
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+#footer_show_references: true
 
 sass:
   sass_dir: _sass
