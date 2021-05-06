@@ -109,28 +109,6 @@ content:
         description: |
           - `IntelliJ`, `Eclipse`, `VS Code`
           - `Confluence`, `Jira`, `Notion`
-  - title: Work Experience
-    layout: list
-    content:
-      - layout: top-middle
-        quote: >
-          현재까지 진행한 주요 프로젝트 입니다.
-      - layout: left
-        title: 십일번가<br />19.09 ~ 현재
-        sub_title: 마이데이터
-        caption: 20.03 ~ 현재
-        description: |
-          <strong>❏ 프로젝트 개요</strong>
-            -
-
-          <strong>❏ 역할</strong>
-            -
-
-          <strong>❏ 사용 기술</strong>
-            -
-
-          <strong>❏ 성과</strong>
-            -
   - title: Experience
     layout: list
     content:
@@ -142,25 +120,47 @@ content:
         sub_title: Payment개발팀/매니저
         caption: 2019.09~현재
         description: |
-          > 인증 서버 개발, FDS 서버 개발, AML 시스템 구축 프로젝트 리더 및 서버 개발, 마이데이터 분석시스템 서버 개발
+          > 인증 서버 개발, FDS 서버 개발 및 운영, AML 시스템 구축 프로젝트 리더 및 서버 개발, 마이데이터 분석시스템 서버 개발
 
-          <strong>마이데이터 (2021.03~진행중)</strong>
-          * 개요:
-          * 역할
+          <strong>마이데이터 (2021.04~진행중)</strong>
+          * 개요: 금융 데이터 개방에 대응, 신사업 기회 발굴을 위한 MyData 허가 획득
+          * 역할: 마이데이터 분석 전달 시스템 개발 및 쇼핑 advisor 서비스 개발
           * 사용 기술
+            * `web`, `jpa`, `batch`
           * 성과
+            * 규격 분석 및 템플릿 작성
+            * <i>현재 다른 사업에 의해 delay 상태</i>
 
-          <strong>SK pay AML (2020.12~진행중)</strong>
-          * 개요:
+          <strong>SK pay AML 시스템 구축 (2020.12~진행중)</strong>
+          * 개요: 전자금융업자 AML 대응을 위한 솔루션 도입 및 시스템 구축
           * 역할
+            * 프로젝트 리더
+            * 개발환경 구축 및 지원
+            * 솔루션 커스터마이징
+            * API 서버 개발
+            * 코드 리뷰어
+            * AML 시스템 연동 라이브러리 제작
+            * CI/CD 자동화
           * 사용 기술
+            * `web`, `security`, `cache`, `jpa`, `mybatis`, `itext`, `lucene`, `filter`, `interceptor`, `test`, `mockito`, `restdocs`, `jacoco`
           * 성과
+            * 전사차원의 협조가 필요한 프로젝트였는데 수많은 협의를 통해 협조를 이끌어 냄
+            * 개발사에서 빌드/배포/개발환경 등을 커스터마이징 하는 과정을 전부 참여, 적극적으로 협조 및 도움
+            * AML 시스템과 연동하기 위한 API 서버 개발 참여
+            * 코드 리뷰어로 코드 리뷰 참여
+            * 오픈마켓, SK pay에서 고객확인제도를 위해 연동하는 구간에서 사용할 암호화 라이브러리 제작(요청/응답 전문 자동 암호화/복호화, 서버 to 서버 인증, 필드 암호화 컨버터 등)
+            * gradle, bitbucket, jenkins, ansible을 이용해 CI/CD 자동화
 
-          <strong>SK pay FDS (2020.07~2020.12)</strong>
-          * 개요:
+          <strong>SK pay FDS 고도화 (2020.07~2020.12)</strong>
+          * 개요: 기존 FDS 시스템의 기능을 활용하여 리포팅 시스템 구축
           * 역할
+            * 리포팅 서버 구축 및 개발
           * 사용 기술
+            * `Logpresso`, `R`, `RMarkdown`, `web`, `mail`
           * 성과
+            * 리포팅 시스템 구축
+            * FDS 서버 및 메일 서버 연동
+            * 운영 리포트, 인증 리포트, 부정거래 리포트를 마크 다운 형식으로 매 주 생성하여 관리자에게 메일로 전달
 
           <strong>SK pay FDS 적용 및 고도화 (2020.01~2020.06)</strong>
           * 개요
@@ -208,15 +208,18 @@ content:
         caption: 2014.03~2017.04
         description: |
           * U+ HomeIoT 플랫폼 서버 개발 및 자체 플랫폼 구축
+  - title: Education
+    layout: list
+    content:
+      - layout:
   - title: Resource
     layout: list
     content:
       - layout: left
         title: 개인 블로그
-        sub_title: https://jaime-note.tistory.com
+        sub_title: <a href="https://jaime-note.tistory.com">https://jaime-note.tistory.com</a>
         description: |
           * 업무 중 추가로 공부가 필요한 주제를 발견했을 때 기록하기 위해 사용
-          * 작년 결혼 및 이사 준비, 회사 업무 등으로 바빠진 이후로 거의 포스팅하지 못하고 있음
 
 #footer_show_references: true
 
