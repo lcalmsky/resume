@@ -126,10 +126,10 @@ content:
           * 개요: 금융 데이터 개방에 대응, 신사업 기회 발굴을 위한 MyData 허가 획득
           * 역할: 마이데이터 분석 전달 시스템 개발 및 쇼핑 advisor 서비스 개발
           * 사용 기술
-            * `web`, `jpa`, `batch`
+            * `web`, `jpa`, `batch`, `oracle`
           * 성과
             * 규격 분석 및 템플릿 작성
-            * <i>현재 다른 사업에 의해 delay 상태</i>
+            * <i>현재 다른 사업에 일정에 의해 delay 상태</i>
 
           <strong>SK pay AML 시스템 구축 (2020.12~진행중)</strong>
           * 개요: 전자금융업자 AML 대응을 위한 솔루션 도입 및 시스템 구축
@@ -142,7 +142,7 @@ content:
             * AML 시스템 연동 라이브러리 제작
             * CI/CD 자동화
           * 사용 기술
-            * `web`, `security`, `cache`, `jpa`, `mybatis`, `itext`, `lucene`, `filter`, `interceptor`, `test`, `mockito`, `restdocs`, `jacoco`
+            * `web`, `security`, `cache`, `jpa`, `mybatis`, `itext`, `lucene`, `filter`, `interceptor`, `batch`, `test`, `mockito`, `restdocs`, `jacoco`, `oracle`
           * 성과
             * 전사차원의 협조가 필요한 프로젝트였는데 수많은 협의를 통해 협조를 이끌어 냄
             * 개발사에서 빌드/배포/개발환경 등을 커스터마이징 하는 과정을 전부 참여, 적극적으로 협조 및 도움
@@ -155,6 +155,7 @@ content:
           * 개요: 기존 FDS 시스템의 기능을 활용하여 리포팅 시스템 구축
           * 역할
             * 리포팅 서버 구축 및 개발
+            * FDS 운영 및 룰 튜닝
           * 사용 기술
             * `Logpresso`, `R`, `RMarkdown`, `web`, `mail`
           * 성과
@@ -173,7 +174,7 @@ content:
             * 단말 인증(간편 결제) 개발
             * 레거시에 적용되어있던 FDS 연동구간 마이그레이션
           * 주요 사용 기술
-            * `kafka`, `filter`, `interceptor`, `redis`, `jpa`, `web`
+            * `kafka`, `filter`, `interceptor`, `redis`, `jpa`, `web`, `mysql`
           * 성과
             * 레거시 연동 포인트 제거
             * 신규 모듈에 확장 가능한 형태로 마이그레이션 완료
@@ -181,11 +182,11 @@ content:
             * 라이브러리 개발을 통해 FDS 연동이 필요한 구간에서 필요한 공통적인 기능 제공
             * kafka 도입 및 FDS 관련 메시지 외에 다양한 메시지 처리할 수 있는 이벤트 서버 개발
 
-          <strong>SK pay 통합 인증 로그인 개발 (2019.10 - 2020.01)</strong>
+          <strong>SK pay 통합 인증 로그인 개발 (2019.10~2020.01)</strong>
           * 개요: SK pay 결제를 회원가입 없이 할 수 있도록 OAuth2.0 방식 로그인(십일번가, T아이디, 본인인증) 개발
           * 역할: 인증 서버 개발, 본인인증 서버 연동, 십일번가 서버 연동, T아이디 서버 연동
           * 주요 사용 기술
-            * `web`, `security`, `config`, `redis`, `jpa`
+            * `web`, `security`, `config`, `redis`, `jpa`, `docker`, `kubernetes`
           * 성과
             * OAuth2.0 방식의 로그인 적용
             * 통합인증 로그인 추상화 설계 및 구현
@@ -195,31 +196,118 @@ content:
         sub_title: 개발팀/개발팀장
         caption: 2019.02~2019.08
         description: |
-          * IoT 플랫폼 설계 및 구축
+          > IoT 플랫폼 설계 및 구축
+
+          <strong>IoT 플랫폼 설계 및 구축 (2019.02~2019.07)</strong>
+          * 개요: 해외 IoT 플랫폼과 연계하여 자체 IoT 서비스 및 플랫폼 사업을 위한 중계 플랫폼 구축
+          * 역할
+            * 클라우드 설계 및 구축(구조, DB, 인프라 등)
+            * 클라우드 서버 개발
+            * 개발자 콘솔 서버 개발
+            * OpenAPI 설계
+            * 이벤트 처리 서버 개발
+            * 고퀄 아이디로 로그인 페이지 개발(Front-end)
+            * 해외 IoT 플랫폼 서버 연동 SDK 개발
+            * 공용 라이브러리 개발
+          * 주요 사용 기술
+            * `azure`, `mariadb`, `cloud`, `gateway`, `zuul`, `histrix`, `config`, `oauth`, `pulsar`, `bootstrap`, `web`, `security`, `gitlab`, `azure devOps`, `notion`
+          * 성과
+            * Azure cloud 환경에 spring cloud를 활용하여 IoT 플랫폼 구축
+            * 해외 서버와 국내 AI 스피커 서버, Open API 서버를 연동하여 IoT 서비스 및 플랫폼을 제공
+            * 클라우드 내 다양한 서버 개발
+              * 통합 인증 서버, AI 스피커(Naver Clova, Kakao Mini, GiGa Genie) 연동 서버, OpenAPI 서버, 이벤트 서버, 웹 서버
+            * 해외 서버 연동 SDK 제작을 통해 중계 기능 구현을 간단하게 할 수 있게함
+            * 공용 라이브러리 개발을 통해 각 모듈별로 공통적으로 사용하는 기능 개발 및 모델 정의
+            * IoT 플랫폼 기능 제공을 위한 OpenAPI 설계
+            * DB 테이블 데이터 기반으로 각 종 디바이스를 추가할 수 있게함
+            * DevOps 적용
       - layout: left
         title: 넷맨
         sub_title: MG팀/전임 연구원
         caption: 17.11 ~ 19.02
         description: |
-          * WebOS 기반 솔루션 클라우드 구축 및 서버 개발
+          > WebOS 기반 솔루션 클라우드 구축 및 서버 개발
+
+          <strong>WebOS 기반 네트워크 보안 솔루션 클라우드 플랫폼 개발 (2017.11~2019.02)</strong>
+          * 개요: 윈도우 기반 솔루션을 웹OS 형식으로 제공하기 위한 클라우드 구축 및 개발
+          * 역할
+            * 클라우드 설계 및 구축
+            * 클라우드 서버 개발
+            * 라이브러리 개발
+            * API 설계
+          * 주요 사용 기술
+            * `cloud`, `config`, `gateway`, `web`, `security`, `mybatis`, `jni`, `itext`, `lucene`, `mybatis`, `bamboo`, `bitbucket`, `swagger`
+          * 성과
+            * 클라우드 구조 설계, 인프라 구축
+            * 클라우드 서버 및 앱 서버 개발
+              * OS 설정 서버, 리포트 서버, 이벤트 로그 서버, IP 탐지 서버 개발 및 API 설계
+            * 네트워크 보안 리포트 PDF 변환 기능 개발
+            * JNI를 이용해 성능 측정 라이브러리 개발
+            * 구글 페이징 도입으로 기존에 10분 이상 걸리던 이벤트 로그 내역 조회 기능을 1초 내로 가능하게 하여 좋은 평가를 받음
+            * DevOps 적용
       - layout: left
         title: 헤리트
         sub_title: IoT플랫폼팀/대리(전문연구요원)
         caption: 2014.03~2017.04
         description: |
-          * U+ HomeIoT 플랫폼 서버 개발 및 자체 플랫폼 구축
-  - title: Education
-    layout: list
-    content:
-      - layout:
-  - title: Resource
+          > U+ HomeIoT 플랫폼 서버 개발 및 자체 플랫폼 구축
+
+          <strong>HURA Center 시스템 개발 (2017.03~2017.04)</strong>
+          * 개요: IoT 플랫폼 사업을 위해 자체 플랫폼 구축
+          * 역할: 기존 플랫폼 튜닝 및 마이그레이션, 서버 개발
+          * 주요 사용 기술
+            * `slee(사내 프레임워크)`, `netty`, `mariadb`, `fcm`, `chrome app`, `oauth`
+          * 성과
+            * 플랫폼 내 서버 마이그레이션 및 신규 개발
+              * 인증 서버, 푸시 서버, API 서버 개발
+
+          <strong>KTT 다원DNS_IoT플랫폼 솔루션 (2017.01~2017.03)</strong>
+          * 개요: KTT, 다원 단말과 연동하는 IoT 플랫폼 구축
+          * 역할: 기존 플랫폼 튜닝 및 마이그레이션, 서버 개발
+          * 주요 사용 기술
+            * `slee(사내 프레임워크)`, `netty`, `mariadb`, `fcm`
+          * 성과
+            * 플랫폼 마이그레이션을 위한 시스템 아키텍처 설계
+            * 세션 라이브러리 개발
+
+          <strong>LGU+ 홈IoT 플랫폼 구축 및 개발 (2015.02~2017.02)</strong>
+          * 개요: U+홈IoT
+          * 역할: API 설계 및 서버 개발
+          * 주요 사용 기술
+            * `slee(사내 프레임워크)`, `netty`, `altibase`, `quartz`, `design pattern`
+          * 성과
+            * 커넥티드 홈 서비스 고도화를 통해 홈IoT 플랫폼 구축(11개 프로젝트 참여)
+            * 홈IoT 앱 서버, IoT 설정 서버, Open API 서버, 위젯 서버, 푸시 서버, 메일 서버 개발
+            * 3rd-party(린나이, ADT 캡스, 삼성 냉장고, 지도 인프라, 메일 등) 연동 서버 개발
+            * 푸시 기능 개선(비동기, 푸시 커맨드, 재전송, 이력 등)
+            * 소호향 홈IoT 플랫폼 마이그레이션 및 추가 개발
+            * TLS 보안 취약점 개선을 위해 보안 알고리즘 업데이트
+            * 패킷 분석 및 테스트
+            * 자유도가 높은 프레임워크라 흐름과 데이터를 제어할 수 있는 템플릿 개발 및 배포
+
+          <strong>ETRI 스마트홈 시연룸 구축 (2014.04~2015.02)</strong>
+          * 개요: 중소기업청 IoT 전시회 참가를 위한 스마트홈 시연룸 구축
+          * 역할: 안드로이드 앱 개발
+          * 주요 사용 기술
+            * `slee(사내 프레임워크)`, `netty`, `android`, `streaming`
+          * 성과
+            * 스마트 홈 앱 개발
+            * 영상 처리 서버 연동 및 스트리밍 기능 개발
+            * 중소기업청 전시회 참가
+
+  - title: Link
     layout: list
     content:
       - layout: left
-        title: 개인 블로그
+        title: Blog
         sub_title: <a href="https://jaime-note.tistory.com">https://jaime-note.tistory.com</a>
         description: |
-          * 업무 중 추가로 공부가 필요한 주제를 발견했을 때 기록하기 위해 사용
+          > 업무 중 추가로 공부가 필요한 주제를 발견했을 때 기록하기 위해 사용합니다.
+      - layout: left
+        title: GitHub
+        sub_title: <a href="https://github.com/lcalmsky">https://github.com/lcalmsky</a>
+        description: |
+          > 알고리즘 공부, 다양한 프로젝트 테스트, 개인 프로젝트를 위해 사용합니다.
 
 #footer_show_references: true
 
