@@ -84,7 +84,7 @@ content:
         card: markdown
         description: |
           - `java`
-          - `spring boot`: `web`, `security`, `jpa`, `redis`, `kafka`, `batch`, `test`, `mockito`
+          - `spring boot`: `web`, `security`, `jpa`, `cache`, `validation`, `redis`, `kafka`, `batch`, `test`, `mockito`
           - `spring cloud`: `oauth`, `gateway`, `zuul`, `histrix`, `config`
           - `ORM`: `Hibernate`, `MyBatis`, `Querydsl`
           - `R`
@@ -142,7 +142,7 @@ content:
             * AML 시스템 연동 라이브러리 제작
             * CI/CD 자동화
           * 사용 기술
-            * `web`, `security`, `cache`, `jpa`, `mybatis`, `itext`, `lucene`, `filter`, `interceptor`, `batch`, `test`, `mockito`, `restdocs`, `jacoco`, `oracle`
+            * `web`, `security`, `validation`, `cache`, `jpa`, `mybatis`, `itext`, `lucene`, `filter`, `interceptor`, `batch`, `test`, `mockito`, `restdocs`, `jacoco`, `oracle`
           * 성과
             * 전사차원의 협조가 필요한 프로젝트였는데 수많은 협의를 통해 협조를 이끌어 냄
             * 개발사에서 빌드/배포/개발환경 등을 커스터마이징 하는 과정을 전부 참여, 적극적으로 협조 및 도움
@@ -186,7 +186,7 @@ content:
           * 개요: SK pay 결제를 회원가입 없이 할 수 있도록 OAuth2.0 방식 로그인(십일번가, T아이디, 본인인증) 개발
           * 역할: 인증 서버 개발, 본인인증 서버 연동, 십일번가 서버 연동, T아이디 서버 연동
           * 주요 사용 기술
-            * `web`, `security`, `config`, `redis`, `jpa`, `docker`, `kubernetes`
+            * `web`, `security`, `validation`, `config`, `redis`, `jpa`, `docker`, `kubernetes`
           * 성과
             * OAuth2.0 방식의 로그인 적용
             * 통합인증 로그인 추상화 설계 및 구현
@@ -210,7 +210,7 @@ content:
             * 해외 IoT 플랫폼 서버 연동 SDK 개발
             * 공용 라이브러리 개발
           * 주요 사용 기술
-            * `azure`, `mariadb`, `cloud`, `gateway`, `zuul`, `histrix`, `config`, `oauth`, `pulsar`, `bootstrap`, `web`, `security`, `gitlab`, `azure devOps`, `notion`
+            * `azure`, `mariadb`, `cloud`, `gateway`, `zuul`, `histrix`, `config`, `oauth`, `pulsar`, `bootstrap`, `web`, `security`, `validation`, `gitlab`, `azure devOps`, `notion`
           * 성과
             * Azure cloud 환경에 spring cloud를 활용하여 IoT 플랫폼 구축
             * 해외 서버와 국내 AI 스피커 서버, Open API 서버를 연동하여 IoT 서비스 및 플랫폼을 제공
@@ -236,7 +236,7 @@ content:
             * 라이브러리 개발
             * API 설계
           * 주요 사용 기술
-            * `cloud`, `config`, `gateway`, `web`, `security`, `mybatis`, `jni`, `itext`, `lucene`, `mybatis`, `bamboo`, `bitbucket`, `swagger`
+            * `cloud`, `config`, `gateway`, `web`, `security`, `validation`, `mybatis`, `jni`, `itext`, `lucene`, `mybatis`, `bamboo`, `bitbucket`, `swagger`
           * 성과
             * 클라우드 구조 설계, 인프라 구축
             * 클라우드 서버 및 앱 서버 개발
