@@ -84,7 +84,7 @@ content:
         card: markdown
         description: |
           - `java`
-          - `spring boot`: `web`, `security`, `jpa`, `cache`, `validation`, `redis`, `kafka`, `batch`, `test`, `mockito`
+          - `spring boot`: `web`, `web-socket`, `security`, `jpa`, `cache`, `validation`, `redis`, `kafka`, `batch`, `test`, `mockito`
           - `spring cloud`: `oauth`, `gateway`, `zuul`, `histrix`, `config`
           - `ORM`: `Hibernate`, `MyBatis`, `Querydsl`
           - `R`
@@ -142,7 +142,7 @@ content:
             * AML 시스템 연동 라이브러리 제작
             * CI/CD 자동화
           * 사용 기술
-            * `web`, `security`, `validation`, `cache`, `jpa`, `mybatis`, `itext`, `lucene`, `filter`, `interceptor`, `batch`, `test`, `mockito`, `restdocs`, `jacoco`, `oracle`
+            * `web`, `security`, `validation`, `cache`, `jpa`, `mybatis`, `lucene`, `filter`, `interceptor`, `batch`, `test`, `mockito`, `restdocs`, `jacoco`, `oracle`
           * 성과
             * 전사차원의 협조가 필요한 프로젝트였는데 수많은 협의를 통해 협조를 이끌어 냄
             * 개발사에서 빌드/배포/개발환경 등을 커스터마이징 하는 과정을 전부 참여, 적극적으로 협조 및 도움
@@ -307,6 +307,7 @@ content:
           * 자바 클린코드(영상 강의)
           * 자바 기초/클린 코드/객체지향 설계(클래스)
           * 자바 개발 상담, 과제 상담, 진로 상담(상담)
+          * 현재는 업무가 바빠 여유시간에만 진행중
 
       - layout: left
         title: 논문
