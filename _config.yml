@@ -237,7 +237,7 @@ content:
             * 라이브러리 개발
             * API 설계
           * 주요 사용 기술
-            * `cloud`, `config`, `gateway`, `web`, `security`, `validation`, `mybatis`, `jni`, `itext`, `lucene`, `mybatis`, `bamboo`, `bitbucket`, `swagger`
+            * `cloud`, `config`, `gateway`, `web`, `web-socket`, `security`, `validation`, `mybatis`, `jni`, `itext`, `lucene`, `mybatis`, `bamboo`, `bitbucket`, `swagger`
           * 성과
             * 클라우드 구조 설계, 인프라 구축
             * 클라우드 서버 및 앱 서버 개발
