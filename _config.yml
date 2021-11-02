@@ -61,17 +61,21 @@ about_content: |
 
   2014년부터 `자바 백엔드 개발자`로 다양한 도메인(IoT, Fintech, WebOS)에서 `시스템 구축 및 설계`, `서비스 개발`을 해왔습니다.
 
-  현재는 십일번가 내 SK pay 관련 조직에서 AML(자금세탁방지) 시스템 구축 프로젝트에 개발리더로 `매니징`, `설계`, `개발`에 참여하고 있습니다.
+  현재는 십일번가 내 SK pay 개발 조직에서 인증, FDS, AML 개발 및 운영 맡아서 진행하다 최근에는 MyData 개발에 참여하고 있습니다.
 
-  `가장 좋아하는 일`은 협업하는 동료들이 같이 사용할 수 있는 `라이브러리를 제작`하는 것으로, 개발자가 편리하게 사용할 수 있는 `개발 경험을 제공`하기위해 고민하고 설계하는 과정을 즐기고, 그렇게 작성할 수 있게 많은 노력을 기울이고 있습니다.
+  `가장 좋아하는 일`은 협업하는 동료들이 같이 사용할 수 있는 `라이브러리를 제작`하는 것과 다양한 개발 주제를 가지고 브레인스토밍 하는 것 입니다.
 
-  항상 `테스트 코드 작성`을 우선시하고 `코드 커버리지 수치`에 관심이 많습니다. 테스트 이후 `산출물(규격 문서, 테스트 결과 문서) 작성 자동화`에도 관심이 많습니다.
+  개발자가 편리하게 사용할 수 있는 `개발 경험을 제공`하기위해 고민하고 설계하는 과정을 즐기고, 그렇게 작성할 수 있게 많은 노력을 기울이고 있습니다.
 
-  귀찮은 것을 매우 싫어해 당연히 컴퓨터가 해야 할 일들은 컴퓨터가 해야한다고 생각하고 그렇게 하기위해 더 귀찮은 일도 마다하지 않습니다. 이런 과정을 통해 다양한 프로세스들을 자동화시켰을 때 큰 성취감을 느낍니다.<br>
+  TDD(Test Driven Development), DDD(Domain Driven Development) 등 개발 방법론에 관심이 많고 직접 적용해보는 것을 즐겨합니다.
+
+  `테스트 코드 작성`을 최대한 하기위해 노력하고 `코드 커버리지 수치`에 관심이 많습니다. 테스트 이후 `산출물(규격 문서, 테스트 결과 문서) 작성 자동화`에도 관심이 많습니다.
+
+  귀찮은 것을 매우 싫어해 당연히 컴퓨터가 해야 할 일들은 컴퓨터가 해야한다고 생각하고 그렇게 하기위해 더 귀찮은 일도 마다하지 않습니다. 이런 과정을 통해 다양한 프로세스들을 자동화시켰을 때 큰 성취감을 느낍니다.
 
   다양한 개발자들과 `커뮤니케이션`하는 것을 좋아하고 같이 `좋은 개발 문화`를 만들어나가길 희망합니다.
 
-  관심 분야 : <mark>back-end</mark>, <mark>DevOps</mark>, <mark>cloud</mark>, <mark>Container Orchestration</mark>, <mark>TDD</mark>, <mark>documentation</mark>
+  관심 분야 : <mark>back-end</mark>, <mark>DevOps</mark>, <mark>cloud</mark>, <mark>Container Orchestration</mark>, <mark>TDD</mark>, <mark>DDD</mark>, <mark>documentation</mark>
 
 content:
   - title: Skill
@@ -84,10 +88,14 @@ content:
         card: markdown
         description: |
           - `java`
-          - `spring boot`: `web`, `security`, `jpa`, `cache`, `validation`, `redis`, `kafka`, `batch`, `test`, `mockito`
-          - `spring cloud`: `oauth`, `gateway`, `zuul`, `histrix`, `config`
+          - `spring boot`: `web`, `security`, `jpa`, `cache`, `validation`, `redis`, `kafka`, `batch`, `test`, `mockito`, `rest-docs`
+          - `spring cloud`: `oauth`, `gateway`, `zuul`, `histrix`, `config`, `feign`
           - `ORM`: `Hibernate`, `MyBatis`, `Querydsl`
-          - `R`
+      - layout: left
+        title: Cloud
+        card: markdown
+        description: |
+          - `aws`
       - layout: left
         title: Database
         card: markdown
@@ -122,16 +130,21 @@ content:
         description: |
           > 인증 서버 개발, FDS 서버 개발 및 운영, AML 시스템 구축 프로젝트 리더 및 서버 개발, 마이데이터 분석시스템 서버 개발
 
-          <strong>마이데이터 (2021.04~진행중)</strong>
+          <strong>마이데이터 (2021.08~진행중)</strong>
           * 개요: 금융 데이터 개방에 대응, 신사업 기회 발굴을 위한 MyData 허가 획득
-          * 역할: 마이데이터 분석 전달 시스템 개발 및 쇼핑 advisor 서비스 개발
+          * 역할
+            * 마이데이터 시스템 설계
+            * 마이데이터 데이터 관리 도메인 담당 개발
           * 사용 기술
-            * `web`, `jpa`, `batch`, `oracle`
+            * `web`, `jpa`, `aws batch`, `oracle`, `docker`, `gRPC`, `querydsl`,
           * 성과
-            * 규격 분석 및 템플릿 작성
-            * <i>현재 다른 사업에 일정에 의해 delay 상태</i>
+            * 마이데이터 표준 API 규격 분석
+            * 기관 정보 배치 서비스 개발
+            * 서비스 정보 배치 서비스 개발
+            * 데이터 관리 서비스 개발중
+            * 통계 자료 배치 서비스 개발중
 
-          <strong>SK pay AML 시스템 구축 (2020.12~진행중)</strong>
+          <strong>SK pay AML 시스템 구축 및 운영(2020.12~진행중)</strong>
           * 개요: 전자금융업자 AML 대응을 위한 솔루션 도입 및 시스템 구축
           * 역할
             * 프로젝트 리더
@@ -141,8 +154,10 @@ content:
             * 코드 리뷰어
             * AML 시스템 연동 라이브러리 제작
             * CI/CD 자동화
+            * KYC, STR 현황 슬랙봇 개발
+            * 운영 및 준법지원팀 지원
           * 사용 기술
-            * `web`, `security`, `validation`, `cache`, `jpa`, `mybatis`, `itext`, `lucene`, `filter`, `interceptor`, `batch`, `test`, `mockito`, `restdocs`, `jacoco`, `oracle`
+            * `web`, `security`, `validation`, `cache`, `jpa`, `filter`, `interceptor`, `test`, `mockito`, `restdocs`, `jacoco`, `mysql`, `slack app`
           * 성과
             * 전사차원의 협조가 필요한 프로젝트였는데 수많은 협의를 통해 협조를 이끌어 냄
             * 개발사에서 빌드/배포/개발환경 등을 커스터마이징 하는 과정을 전부 참여, 적극적으로 협조 및 도움
