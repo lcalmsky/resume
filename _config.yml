@@ -71,7 +71,7 @@ about_content: |
 
   다양한 개발자들과 `커뮤니케이션`하는 것을 좋아하고 같이 `좋은 개발 문화`를 만들어나가길 희망합니다.
 
-  관심 분야 : <mark>back-end</mark>, <mark>DevOps</mark>, <mark>cloud</mark>, <mark>Container Orchestration</mark>, <mark>TDD</mark>, <mark>documentation</mark>
+  관심 분야 : <mark>back-end</mark>, <mark>DevOps</mark>, <mark>cloud</mark>, <mark>TDD</mark>, <mark>DDD</mark>, <mark>documentation</mark>
 
 content:
   - title: Skill
@@ -109,6 +109,7 @@ content:
         description: |
           - `IntelliJ`, `Eclipse`, `VS Code`
           - `Confluence`, `Jira`, `Notion`
+          - `Slack`
   - title: Experience
     layout: list
     content:
@@ -123,13 +124,14 @@ content:
           > 인증 서버 개발, FDS 서버 개발 및 운영, AML 시스템 구축 프로젝트 리더 및 서버 개발, 마이데이터 분석시스템 서버 개발
 
           <strong>마이데이터 (2021.07~진행중)</strong>
-          * 개요: 금융 데이터 개방에 대응, 신사업 기회 발굴을 위한 MyData 허가 획득
-          * 역할: 마이데이터 데이터 관리 개발(마이데이터 수집 통계, 모니터링 및 알림 서비스, 개인신용정보 관리)
+          * 개요: 금융 데이터 개방에 대응, 신사업 기회 발굴을 위한 MyData 인허가 획득
+          * 역할: 마이데이터 데이터 관리 개발(마이데이터 수집 통계, 모니터링 및 알림 서비스, 개인신용정보 관리), 마이데이터 서비스 개발(내 소비)
           * 사용 기술
             * `aws`, `web`, `jpa`, `batch`, `oracle`, `gRPC`, `swagger`, `feign`
           * 성과
-            * <i>현재 R&R 정의된 상태로 데이터베이스 테이블 설계중</i>
-            * `TBD`
+            * 마이데이터 관리 도메인 설계(기관 정보, 서비스 정보, 수집 통계)
+            * 기관 정보, 서비스 정보, 통계 배치 개발
+            * 내 소비 서비스 규격 설계 및 개발
 
           <strong>SK pay AML 시스템 구축 (2020.12~진행중)</strong>
           * 개요: 전자금융업자 AML 대응을 위한 솔루션 도입 및 시스템 구축
