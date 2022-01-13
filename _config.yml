@@ -59,7 +59,9 @@ about_content: |
 
   <hr />
 
-  2014년부터 `자바 백엔드 개발자`로 다양한 도메인(IoT, Fintech, WebOS)에서 `시스템 구축 및 설계`, `서비스 개발`을 해왔습니다.
+  2012년부터 객체지향 기술을 심도있게 다루는 연구실에서 2년간 공부하며 3개의 논문을 작성하였고 다수의 프로젝트 진행을 병행하며 역량을 키웠습니다.
+
+  2014년부터 `자바 백엔드 개발자`로 다양한 도메인(IoT, Fintech, WebOS, MyData)에서 `시스템 구축 및 설계`, `서비스 개발`을 해왔습니다.
 
   현재는 십일번가 내 SK pay 관련 조직에서 AML(자금세탁방지) 시스템 구축 프로젝트에 개발 리더로 `매니징`, `설계`, `개발`에 참여하고 있고, 마이데이터 시스템 구축 및 개발 업무를 병행하고 있습니다.
 
@@ -71,7 +73,7 @@ about_content: |
 
   다양한 개발자들과 `커뮤니케이션`하는 것을 좋아하고 같이 `좋은 개발 문화`를 만들어나가길 희망합니다.
 
-  관심 분야 : <mark>back-end</mark>, <mark>DevOps</mark>, <mark>cloud</mark>, <mark>TDD</mark>, <mark>DDD</mark>, <mark>documentation</mark>
+  관심 분야 : <mark>back-end</mark>, <mark>Clean Code</mark>, <mark>DevOps</mark>, <mark>TDD</mark>, <mark>DDD</mark>, <mark>documentation</mark>
 
 content:
   - title: Skill
