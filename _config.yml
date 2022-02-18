@@ -63,13 +63,13 @@ about_content: |
 
   2014년부터 `자바 백엔드 개발자`로 다양한 도메인(IoT, Fintech, WebOS, MyData)에서 `시스템 구축 및 설계`, `서비스 개발`을 해왔습니다.
 
-  현재는 십일번가 내 SK pay 관련 조직에서 AML(자금세탁방지) 시스템 구축 프로젝트에 개발 리더로 `매니징`, `설계`, `개발`에 참여하고 있고, 마이데이터 시스템 구축 및 개발 업무를 병행하고 있습니다.
+  2019년부터 십일번가 내 SK pay 관련 조직에서 `인증 시스템 개발`, `FDS(Fraud Detection System, 부정거래탐지) 개발 및 운영`, `AML(Anti-Money Laundering, 자금세탁방지) 시스템 구축 프로젝트 리더로 매니징, 설계, 개발`에 참여하였고, 현재는 `AML 운영`과 `마이데이터 시스템 구축 및 개발` 업무를 병행하고 있습니다.
 
   `가장 좋아하는 일`은 협업하는 동료들이 같이 사용할 수 있는 `라이브러리를 제작`하는 것으로, 개발자가 편리하게 사용할 수 있는 `개발 경험을 제공`하기위해 고민하고 설계하는 과정을 즐기고, 그렇게 작성할 수 있게 많은 노력을 기울이고 있습니다.
 
   항상 `테스트 코드 작성`을 우선시하고 `코드 커버리지 수치`에 관심이 많습니다. 테스트 이후 `산출물(규격 문서, 테스트 결과 문서) 작성 자동화`에도 관심이 많습니다.
 
-  귀찮은 것을 매우 싫어해 당연히 컴퓨터가 해야 할 일들은 컴퓨터가 해야한다고 생각하고 그렇게 하기위해 더 귀찮은 일도 마다하지 않습니다. 이런 과정을 통해 다양한 프로세스들을 자동화시켰을 때 큰 성취감을 느낍니다.<br>
+  귀찮은 것을 매우 싫어해 당연히 컴퓨터가 해야 할 일들은 컴퓨터가 해야한다고 생각하고 그렇게 하기위해 개발을 해야한다면 더 귀찮은 작업도 마다하지 않습니다. 이런 과정을 통해 다양한 프로세스들을 자동화시켰을 때 큰 성취감을 느낍니다.<br>
 
   다양한 개발자들과 `커뮤니케이션`하는 것을 좋아하고 같이 `좋은 개발 문화`를 만들어나가길 희망합니다.
 
@@ -85,16 +85,15 @@ content:
         title: Language &<br>Framework
         card: markdown
         description: |
-          - `java`
+          - `language`: `java`, `R`
           - `spring boot`: `web`, `web-socket`, `security`, `jpa`, `cache`, `validation`, `redis`, `kafka`, `batch`, `test`, `mockito`
-          - `spring cloud`: `oauth`, `gateway`, `zuul`, `config`
+          - `spring cloud`: `oauth`, `gateway`, `zuul`, `config`, `aws`
           - `ORM`: `Hibernate`, `MyBatis`, `Querydsl`
-          - `R`
       - layout: left
         title: Cloud
         card: markdown
         description: |
-          - `AWS`
+          - `AWS`, `Azure`
       - layout: left
         title: Database
         card: markdown
@@ -132,9 +131,9 @@ content:
 
           <strong>마이데이터 (2021.07~진행중)</strong>
           * 개요: 금융 데이터 개방에 대응, 신사업 기회 발굴을 위한 MyData 인허가 획득 및 서비스 오픈
-          * 역할: 마이데이터 데이터 관리 개발(마이데이터 수집 통계, 모니터링 및 알림 서비스, 개인신용정보 관리), ~~마이데이터 서비스 개발(내 소비)~~
+          * 역할: 마이데이터 데이터 관리 개발(마이데이터 수집 통계, 모니터링 및 알림 서비스, 개인신용정보 관리)
           * 사용 기술
-            * `aws`: `batch`, `sqs`, `aurora`, _TBD_
+            * `aws`: `batch`, `sqs`, `sns`, `aurora`, _TBD_
             * `web`, `jpa`, `batch`, `gRPC`, `swagger`, `feign`, `docker`, `jenkins`
           * 성과
             * 마이데이터 관리 도메인 설계(기관 정보, 서비스 정보, 수집 통계)
@@ -142,7 +141,10 @@ content:
             * 데이터 관리 서비스 서버 개발
             * 인증, 정보 제공 집계 개발
             * 포털 연동 게이트웨이 서버 개발
-            * 알림 시스템 설계중
+            * 알림 시스템 설계 및 구축
+              * 도메인 설계
+              * Producer/Consumer 개발
+              * _TBD_ (푸시 서버 연동, 메일 서버 연동, 슬랙 서버 연동)
 
           <strong>SK pay AML 시스템 구축 (2020.12~진행중)</strong>
           * 개요: 전자금융업자 AML 대응을 위한 솔루션 도입 및 시스템 구축
