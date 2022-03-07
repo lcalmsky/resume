@@ -315,14 +315,13 @@ content:
     content:
       - layout: left
         title: 네이버 eXpert
-        sub_title: <a href="https://m.expert.naver.com/expert/profile/home?storeId=100004974">eXpert 홈</a><br>2020.07~현재
+        sub_title: <a href="https://m.expert.naver.com/expert/profile/home?storeId=100004974">eXpert 홈</a><br>2020.07~2022.02
         description: |
 
           <strong>네이버 eXpert로 다양한 상담 활동 진행</strong>
           * 자바 클린코드(영상 강의)
           * 자바 기초/클린 코드/객체지향 설계(클래스)
           * 자바 개발 상담, 과제 상담, 진로 상담(상담)
-          * 현재는 업무가 바빠 여유시간에만 진행중
 
       - layout: left
         title: 논문
