@@ -156,6 +156,10 @@ content:
             * 코드 리뷰어
             * AML 시스템 연동 라이브러리 제작
             * CI/CD 자동화
+            * <details>
+              <summary>모니터링용 슬랙봇 개발</summary>
+              <img src="https://raw.githubusercontent.com/resume/master/images/slackbot.png">
+              </details>
           * 사용 기술
             * `web`, `security`, `validation`, `cache`, `jpa`, `mybatis`, `lucene`, `filter`, `interceptor`, `batch`, `test`, `mockito`, `restdocs`, `jacoco`, `oracle`
           * 성과
