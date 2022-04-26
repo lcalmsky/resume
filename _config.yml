@@ -123,7 +123,7 @@ content:
         quote: >
           현재까지 진행한 주요 프로젝트 입니다.
       - layout: left
-        title: 자비스앤빌런즈(Jobis & Villains)
+        title: 자비스앤빌런즈
         sub_title: 백엔드개발팀(리펀드)/개발자
         caption: 2022.04~현재
         description: |
@@ -139,7 +139,7 @@ content:
           * 개요: 금융 데이터 개방에 대응, 신사업 기회 발굴을 위한 MyData 인허가 획득 및 서비스 오픈
           * 역할: 마이데이터 데이터 관리 개발(마이데이터 수집 통계, 모니터링 및 알림 서비스, 개인신용정보 관리)
           * 사용 기술
-            * `aws`: `batch`, `sqs`, `sns`, `aurora`, _TBD_
+            * `aws`: `batch`, `sqs`, `sns`, `aurora`, `ec2`, `ecs`
             * `web`, `jpa`, `batch`, `gRPC`, `swagger`, `feign`, `docker`, `jenkins`
           * 성과
             * 마이데이터 관리 도메인 설계(기관 정보, 서비스 정보, 수집 통계)
