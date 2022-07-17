@@ -127,13 +127,16 @@ content:
         sub_title: 백엔드개발팀<br>리펀드 스쿼드<br>드루와 스쿼드
         caption: 2022.04~현재
         description: |
-          <string>사용 기술</string>
+          <strong>사용 기술</strong>
           * aws, spring-boot, spring-cloud, gradle, jpa, kafka, mysql, hexagonal-architecture,
           <strong>드루와 스쿼드(22.07~)</strong>
           > 고객이 앱에 자주 방문하고 오래 머무를 수 있게 흥미있는 기능과 정보를 제공하는 업무 수행
           * 역할: 연말정산 서버 개발
           * 업무
-            *
+            * TBD
+          * 성과
+            * TBD
+
           <strong>리펀드 스쿼드(22.04~22.07)</strong>
           > 환급금을 증가시킬 수 있는 방법을 찾아 고객의 부를 증대시키기 위한 업무 수행
           * 역할: 백엔드 앱 서버, 세무사 서버, 세무 어드민 서버 개발
