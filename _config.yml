@@ -124,10 +124,11 @@ content:
           현재까지 진행한 주요 프로젝트 입니다.
       - layout: left
         title: 자비스앤빌런즈
-        sub_title: 백엔드개발팀(리펀드)/개발자
+        sub_title: 백엔드개발팀
         caption: 2022.04~현재
         description: |
-          > Onboarding
+          > <string>드루와 스쿼드(22.07~)</strong>
+          > <string>리펀드 스쿼드(22.04~22.06)</strong>
       - layout: left
         title: 십일번가(SK pay)
         sub_title: Payment개발팀/매니저
