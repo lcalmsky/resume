@@ -130,7 +130,7 @@ content:
           > 리펀드 스쿼드, 드루와 스쿼드 백엔드 개발, 스쿼드 개발 리
 
           <strong>사용 기술</strong>
-          * aws, spring-boot, spring-cloud, gradle, jpa, kafka, mysql, hexagonal-architecture
+          * `aws`, `spring-boot`, `spring-cloud`, `gradle`, `jpa`, `kafka`, `mysql`, `hexagonal-architecture`
 
           <strong>드루와 스쿼드(22.07~)</strong>
           * 개요: 고객이 앱을 자주 방문하고 오래 머무를 수 있게 흥미있는 기능과 정보를 제공하는 업무 수행
