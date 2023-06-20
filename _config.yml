@@ -127,7 +127,7 @@ content:
         sub_title: 백엔드개발팀<br>리펀드 스쿼드<br>드루와 스쿼드
         caption: 2022.04~현재
         description: |
-          > 리펀드 스쿼드, 드루와 스쿼드 백엔드 개발, 스쿼드 개발 리드
+          > 리펀드 스쿼드 백엔드 개발, 드루와 스쿼드 백엔드 개발 및 개발 리드, 플랫폼 트라이브 백엔드 개발
 
           <strong>사용 기술</strong>
           * `aws`, `spring-boot`, `spring-cloud`, `gradle`, `jpa`, `kafka`, `mysql`, `hexagonal-architecture`, `redis`
