@@ -61,19 +61,21 @@ about_content: |
 
   2012년부터 객체지향 기술을 심도있게 다루는 연구실에서 2년간 공부하며 3개의 논문을 작성하였고 다수의 프로젝트 진행을 병행하며 역량을 키웠습니다.
 
-  2014년부터 `자바 백엔드 개발자`로 다양한 도메인(IoT, Fintech, WebOS, MyData)에서 `시스템 구축 및 설계`, `서비스 개발`을 해왔습니다.
+  2014년부터 `자바 백엔드 개발자`로 다양한 도메인(IoT, Fintech, WebOS, MyData, TaxTech)에서 `시스템 구축 및 설계`, `서비스 개발`, `개발 리딩`을 해왔습니다.
 
-  2019년부터 십일번가 내 SK pay 관련 조직에서 `인증 시스템 개발`, `FDS(Fraud Detection System, 부정거래탐지) 개발 및 운영`, `AML(Anti-Money Laundering, 자금세탁방지) 시스템 구축 프로젝트 리더로 매니징, 설계, 개발`에 참여하였고, 현재는 `AML 운영`과 `마이데이터 시스템 구축 및 개발` 업무를 병행하고 있습니다.
+  2019년부터 십일번가 내 SK pay 관련 조직에서 `인증 시스템 개발`, `FDS(Fraud Detection System, 부정거래탐지) 개발 및 운영`, `AML(Anti-Money Laundering, 자금세탁방지) 시스템 구축 프로젝트 리더로 매니징, 설계, 개발`에 참여하였고, `AML 운영`과 `마이데이터 시스템 구축 및 개발` 업무를 병행하였습니다.
+  
+  현재는 세무테크 기업 자비스앤빌런즈에서 ISMS 인증을 위한 TF팀에서 암호화를 담당하였고, 삼쩜삼 서비스를 위한 BE 개발 및 개발 리딩을 하고 있습니다.
 
   `가장 좋아하는 일`은 협업하는 동료들이 같이 사용할 수 있는 `라이브러리를 제작`하는 것으로, 개발자가 편리하게 사용할 수 있는 `개발 경험을 제공`하기위해 고민하고 설계하는 과정을 즐기고, 그렇게 작성할 수 있게 많은 노력을 기울이고 있습니다.
 
   항상 `테스트 코드 작성`을 우선시하고 `코드 커버리지 수치`에 관심이 많습니다. 테스트 이후 `산출물(규격 문서, 테스트 결과 문서) 작성 자동화`에도 관심이 많습니다.
 
-  귀찮은 것을 매우 싫어해 당연히 컴퓨터가 해야 할 일들은 컴퓨터가 해야한다고 생각하고 그렇게 하기위해 개발을 해야한다면 더 귀찮은 작업도 마다하지 않습니다. 이런 과정을 통해 다양한 프로세스들을 자동화시켰을 때 큰 성취감을 느낍니다.<br>
+  귀찮은 것을 매우 싫어해 자동화가 가능한 일들은 어떻게 해서든 자동화하는 편이고, 그렇게 하기위해 개발을 해야한다면 더 귀찮은 작업도 마다하지 않습니다. 이런 과정을 통해 다양한 프로세스들을 자동화시켰을 때 큰 성취감을 느낍니다.<br>
 
   다양한 개발자들과 `커뮤니케이션`하는 것을 좋아하고 같이 `좋은 개발 문화`를 만들어나가길 희망합니다.
 
-  관심 분야 : <mark>back-end</mark>, <mark>Clean Code</mark>, <mark>DevOps</mark>, <mark>TDD</mark>, <mark>DDD</mark>, <mark>hexagonal-architecture</mark>, <mark>documentation</mark>
+  관심 분야 : <mark>back-end</mark>, <mark>clean-code</mark>, <mark>hexagonal-architecture</mark>, <mark>documentation</mark>
 
 content:
   - title: Skill
@@ -85,37 +87,37 @@ content:
         title: Language &<br>Framework
         card: markdown
         description: |
-          - `language`: `java`, `R`
+          - `language`: `java`
           - `spring boot`: `web`, `web-socket`, `security`, `jpa`, `cache`, `validation`, `redis`, `kafka`, `batch`, `test`, `mockito`
           - `spring cloud`: `oauth`, `gateway`, `zuul`, `config`, `aws`
-          - `ORM`: `Hibernate`, `MyBatis`, `Querydsl`
+          - `orm`: `hibernate`, `mybatis`, `querydsl`
       - layout: left
         title: Cloud
         card: markdown
         description: |
-          - `AWS`, `Azure`
+          - `aws`, `azure`
       - layout: left
         title: Database
         card: markdown
         description: |
-          - `RDBMS`: `Oracle`, `MySQL`, `MariaDB`, `Altibase`
-          - `NoSQL`: `Redis`
+          - `rdbms`: `oracle`, `mysql`, `mariadb`, `altibase`
+          - `nosql`: `redis`
       - layout: left
         title: DevOps<br>(Build, Test, Deploy)
         card: markdown
         description: |
-          - `GitHub`, `Bitbucket`, `GitLab`
-          - `Gradle`, `Maven`
-          - `JUnit5`, `Mockito`, `Jacoco`, `RestDocs`, `Swagger`
-          - `Bamboo`, `Jenkins`, `Ansible`
-          - `Docker`, `Kubernetes`
+          - `github`, `bitbucket`, `gitlab`
+          - `gradle`, `maven`
+          - `junit5`, `mockito`, `jacoco`, `restdocs`, `swagger`
+          - `bamboo`, `jenkins`, `ansible`
+          - `docker`, `kubernetes`
       - layout: left
         title: Tools
         card: markdown
         description: |
-          - `IntelliJ`, `Eclipse`, `VS Code`
-          - `Confluence`, `Jira`, `Notion`
-          - `Slack`
+          - `intellij`, `eclipse`, `vs code`
+          - `confluence`, `jira`, `notion`
+          - `slack`
   - title: Experience
     layout: list
     content:
